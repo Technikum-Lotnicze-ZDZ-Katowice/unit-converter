@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import DomComponent from "./DomComponent/DomComponent.jsx"
 
 const Units = () => {
 
@@ -51,7 +52,7 @@ const Units = () => {
             </TabPanel>
             <TabPanel>
             <h2>Any content 7</h2>
-                {/* <DomComponent value={value} /> */}
+                { <DomComponent value={value} />}
             </TabPanel>
         </Tabs>
     )
