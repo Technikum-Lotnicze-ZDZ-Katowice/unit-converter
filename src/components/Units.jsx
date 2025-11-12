@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import DomComponent from "./DomComponent/DomComponent.jsx"
+import {MakComponent} from './MakComponent/component.jsx';
 
 const Units = () => {
 
@@ -43,8 +44,8 @@ const Units = () => {
                 {/* <IgoComponent value={value} /> */}
             </TabPanel>
             <TabPanel>
-            <h2>Any content 6</h2>
-                {/* <MakComponent value={value} /> */}
+            <h2>Pascal-Bar converter</h2>
+                { <MakComponent value={value} /> } pa
             </TabPanel>
             <TabPanel>
             <h2>Any content 7</h2>
