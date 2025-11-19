@@ -6,6 +6,7 @@ import KryComponent from "./KryComponent/KryComponent.jsx";
 import { MakComponent } from "./MakComponent/component.jsx";
 import Converter from "./DomComponent/DomComponent.jsx";
 import JakComponent from "./JakComponent/JakComponent.jsx";
+import {Gauge} from 'lucide-react';
 
 const Units = () => {
   const [value, setValue] = useState(0);
@@ -51,7 +52,8 @@ const Units = () => {
         {/* <IgoComponent value={value} /> */}
       </TabPanel>
       <TabPanel>
-        <h2>Pascal-Bar converter</h2>
+        <h2><Gauge size={20} color="blue"></Gauge>Pascal-Bar converter</h2>
+        <b>Bound: 2</b><br/>
         <MakComponent value={value} />
       </TabPanel>
       <TabPanel>
