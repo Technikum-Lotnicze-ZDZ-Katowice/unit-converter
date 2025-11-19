@@ -30,7 +30,7 @@ const Units = () => {
 
       <TabPanel>
         <h2>Oli component</h2>
-        <OliComponent value={value} />
+        {/* <OliComponent value={value} /> */}
       </TabPanel>
       <TabPanel>
         <h2>Kry component</h2>
