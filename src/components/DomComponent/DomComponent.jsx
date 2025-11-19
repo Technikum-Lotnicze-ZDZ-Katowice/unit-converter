@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const converter = (value) => {
+const Converter = (value) => {
   const [fahrenheit, ustawFahrenheit] = useState('');
 
   const color = value.value > 100 ? 'red' : 'black';
@@ -12,4 +12,4 @@ const converter = (value) => {
   );
 };
 
-export default converter;
+export default Converter;
